@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+      
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title> El Encriptador</title>
+       
+        
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="logo">
+                <img class= "logoimg"src="imagenes/Logo.png">   
+                <p class="titulo">El Encriptador de Mensajes</p>
+            </div>
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Ingresa aqui tu texto ultra secreto">
+            </div>
+            <div class="right">
+                <img src="imagenes/figura.png.png" id="imgDer">
+                <h1 id="texto">Ningún mensaje fue encontrado</h1>
+                <br></br>
+                <textarea id="texto2" name="name" rows="8" cols="80">Introduzca el texto que desea encriptar o desencriptar</textarea>
+                <button id="copiar" type="button"  name="button" onclick="copy()">Copiar</button>
+                
+            </div>
+            <div class="left-button">
+               
+               <p class="solomini">Sólo minúsculas y sin acentos</p>
+               <br>
+               <button type="button" id="botonEncripta" onclick="encriptar()" >Encriptar</button>
+               <button type="button" id="botonDesen" onclick="desencriptar()" >Desencriptar</button>
+
+            </div>
+       
+        </div>
+       
+
+    </body>
+            
+       
+
+
+
+
+
+ </html>
